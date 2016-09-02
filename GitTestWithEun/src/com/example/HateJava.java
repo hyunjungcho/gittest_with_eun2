@@ -9,6 +9,7 @@ public class HateJava {
 		
 		System.out.println("나는 팀원이다!!!!!!!!!!!!으아!!!!!!!");
 		System.out.println("그만해!!!!");
+		System.out.println("pushh~~~~~~");
 	}
 
 }
