@@ -353,12 +353,15 @@ a:focus{
     line-height:15px;
 }
 .navbar-default .navbar-nav > li {
-   
+   padding-left:40px;
 }
 .navbar-default .navbar-nav > li > a{
     padding:20px 25px;
+    padding-left:35px;
+    padding-right:35px;
     color:#fff;
 }
+
 
 .navbar-nav > li > a:hover,.navbar-nav > li > a:focus,.navbar-nav > li.active > a,
 .navbar-default .navbar-nav > .active > a,

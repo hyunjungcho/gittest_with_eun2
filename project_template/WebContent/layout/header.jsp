@@ -53,7 +53,7 @@
                    <!-- Logo / Mobile Menu -->
                    <div class="col-xs-12">
                        <div id="logo">
-                           <h1><a href="#"><img src="../images/logo.png" alt="" /></a></h1>
+                           <h1><a href="../main/main.jsp"><img src="../images/logo.png" alt="" /></a></h1>
                        </div>
                    </div>
                </div>
@@ -74,6 +74,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
+                        
                     </div>
                    
                     <div class="navbar-collapse collapse">
@@ -95,35 +96,33 @@
 
                             <li><a href="#">취미</a>
                             </li>
-                            <br>
-                             <li>
-                             	<input type="text" placeholder="   어디에서" style="height:40px;margin:0 2px 5px 15px;">
+                            
+                             <li><a href="#">검색</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><input type="text" placeholder="어디에서"></a></li>
+                                    <li><a href="#">
+                                    	<select>
+                            				<option>몇 명이서</option>
+                            				<option>혼자서</option>
+                            				<option>둘이서</option>
+                            				<option>3명이상</option>
+                            			</select></a></li>
+                                    <li><a href="#">
+                                    	<select>
+			                            	<option>카테고리</option>
+			                            	<option>먹거리</option>
+			                            	<option>나들이</option>
+			                            	<option>취미</option>
+                            			</select></a></li>
+                                    <li><a href="#"><input type="text" placeholder="무엇을"></a></li>
+                                    <li><button style="margin:20px 20px 20px 20px;color:#303436;"><i class="fa fa-search"></i></button></li>
+                                </ul>
                             </li>
-                            <li>
-                            	<select style="height:44px;margin:0 2px 5px 2px;">
-                            		<option>몇 명이서</option>
-                            		<option>혼자서</option>
-                            		<option>둘이서</option>
-                            		<option>3명이상</option>
-                            	</select>
-                            </li>
-
-                            <li>
-                            	<select style="height:44px;margin:0 2px 5px 2px;">
-                            		<option>카테고리</option>
-                            		<option>먹거리</option>
-                            		<option>나들이</option>
-                            		<option>취미</option>
-                            	</select>
-                            </li>
-
-                            <li><input type="text" placeholder="   무엇을" style="height:40px;margin:0 6px 5px 0;">
-                            </li>
-
-                            <li><button style="margin:8px;color:#303436;"><i class="fa fa-search"></i></button>
-                            </li>
+                            
                       </ul>
 					</div>
+				
+					
 				 </div>
                </div><!--/.row -->
             </div><!--/.container -->

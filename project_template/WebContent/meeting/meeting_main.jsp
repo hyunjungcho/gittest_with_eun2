@@ -41,7 +41,9 @@
         {
             position: relative;
             width: 630px;
-            margin: 100px auto;
+            margin-left: 300px;
+           
+          
         }
         .lineF, .lineS
         {
@@ -133,100 +135,101 @@
 					<div class="col-lg-12 col-md-12 col-sm-12">
 						<div class="dividerHeading">
 							<h4><span>모임</span></h4>
-
 						</div>
 						
-						<div class="our_clients">
-							 <div class="box">
-        <!--첫째 줄(lineFirst)-->
-        <div class="lineF">
-       
-            <div class="boxF">
-                <div class="boxS">
-                    <div class="boxT" style="background-color:#27AB99;">
-                        <div class="overlay">
-                            <a href="#">서울</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="boxF">
-                <div class="boxS">
-                    <div class="boxT" style="background-color:#27AB99;">
-                        <div class="overlay">
-                            <a href="#">경기</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <div class="boxF">
-                <div class="boxS">
-                    <div class="boxT" style="background-color:#27AB99;">
-                        <div class="overlay">
-                            <a href="#">충남</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <div class="boxF">
-                <div class="boxS">
-                    <div class="boxT" style="background-color:#27AB99;">
-                        <div class="overlay">
-                            <a href="#">충북</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-			 <div class="boxF">
-                <div class="boxS">
-                    <div class="boxT" style="background-color:#27AB99;">
-                        <div class="overlay">
-                            <a href="#">전남</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--둘째 줄(lineSecond)-->
-        <div class="lineS">
-         <div class="boxF">
-                <div class="boxS">
-                    <div class="boxT" style="background-color:#27AB99;">
-                        <div class="overlay">
-                            <a href="#">전북</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="boxF">
-                <div class="boxS">
-                    <div class="boxT" style="background-color:#27AB99;">
-                        <div class="overlay">
-                            <a href="#">경남</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="boxF">
-                <div class="boxS">
-                    <div class="boxT" style="background-color:#27AB99;">
-                        <div class="overlay">
-                            <a href="#">경북</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <div class="boxF">
-                <div class="boxS">
-                    <div class="boxT" style="background-color:#27AB99;">
-                        <div class="overlay">
-                            <a href="#">강원</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+					<div class="our_clients">
+						 <div class="box">
+						 
+      						  <!--첫째 줄(lineFirst)-->
+       						  <div class="lineF">
+     							 <div class="boxF">
+					                <div class="boxS">
+					                    <div class="boxT" style="background-color:#27AB99;">
+					                        <div class="overlay">
+					                            <a href="#">서울</a>
+					                        </div>
+					                    </div>
+					                </div>
+					            </div>
+					            <div class="boxF">
+					                <div class="boxS">
+					                    <div class="boxT" style="background-color:#27AB99;">
+					                        <div class="overlay">
+					                            <a href="#">경기</a>
+					                        </div>
+					                    </div>
+					                </div>
+					            </div>
+					             <div class="boxF">
+					                <div class="boxS">
+					                    <div class="boxT" style="background-color:#27AB99;">
+					                        <div class="overlay">
+					                            <a href="#">충남</a>
+					                        </div>
+					                    </div>
+					                </div>
+					            </div>
+					             <div class="boxF">
+					                <div class="boxS">
+					                    <div class="boxT" style="background-color:#27AB99;">
+					                        <div class="overlay">
+					                            <a href="#">충북</a>
+					                        </div>
+					                    </div>
+					                </div>
+					            </div>
+								 <div class="boxF">
+					                <div class="boxS">
+					                    <div class="boxT" style="background-color:#27AB99;">
+					                        <div class="overlay">
+					                            <a href="#">전남</a>
+					                        </div>
+					                    </div>
+					                </div>
+					            </div>
+					        </div>
+					        
+					        <!--둘째 줄(lineSecond)-->
+					        <div class="lineS">
+					         <div class="boxF">
+					                <div class="boxS">
+					                    <div class="boxT" style="background-color:#27AB99;">
+					                        <div class="overlay">
+					                            <a href="#">전북</a>
+					                        </div>
+					                    </div>
+					                </div>
+					            </div>
+					            <div class="boxF">
+					                <div class="boxS">
+					                    <div class="boxT" style="background-color:#27AB99;">
+					                        <div class="overlay">
+					                            <a href="#">경남</a>
+					                        </div>
+					                    </div>
+					                </div>
+					            </div>
+					            <div class="boxF">
+					                <div class="boxS">
+					                    <div class="boxT" style="background-color:#27AB99;">
+					                        <div class="overlay">
+					                            <a href="#">경북</a>
+					                        </div>
+					                    </div>
+					                </div>
+					            </div>
+					             <div class="boxF">
+					                <div class="boxS">
+					                    <div class="boxT" style="background-color:#27AB99;">
+					                        <div class="overlay">
+					                            <a href="#">강원</a>
+					                        </div>
+					                    </div>
+					                </div>
+					            </div>
+					          </div>
+					          
+					    </div>
 						</div>
 					</div>
 				</div>
