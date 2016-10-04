@@ -79,22 +79,22 @@
                    
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">추천!꿀팁</a>
+                            <li><a href="../list/list_best.jsp">추천!꿀팁</a>
                             </li>
 
-                            <li><a href="#">에디터게시글</a>
+                            <li><a href="../list/list_editor.jsp">에디터게시글</a>
                             </li>
 
                             <li><a href="../meeting/meeting_main.jsp">모임</a>
                             </li>
 
-                            <li><a href="#">먹거리</a>
+                            <li><a href="../list/list_food.jsp">먹거리</a>
                             </li>
 
-                            <li><a href="#">나들이</a>
+                            <li><a href="../list/list_picnic.jsp">나들이</a>
                             </li>
 
-                            <li><a href="#">취미</a>
+                            <li><a href="../list/list_hobby.jsp">취미</a>
                             </li>
                             
                              <li><a href="#">검색</a>
@@ -118,6 +118,7 @@
                                     <li><button style="margin:20px 20px 20px 20px;color:#303436;"><i class="fa fa-search"></i></button></li>
                                 </ul>
                             </li>
+
                             
                       </ul>
 					</div>

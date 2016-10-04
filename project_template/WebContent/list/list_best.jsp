@@ -24,13 +24,16 @@
 	<br>
 	<br>
 	<br>
-	
-	
+
+
 	<br>
 	<br>
 	<br>
 	<jsp:include page="../layout/footer.jsp"></jsp:include>
 
 </body>
-<script></script>
+
+<script>
+
+</script>
 </html>
