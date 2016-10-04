@@ -84,7 +84,7 @@
                             <li><a href="#">에디터게시글</a>
                             </li>
 
-                            <li><a href="meeting_main.jsp">모임</a>
+                            <li><a href="../list/meeting/meeting_main.jsp">모임</a>
                             </li>
 
                             <li><a href="#">먹거리</a>

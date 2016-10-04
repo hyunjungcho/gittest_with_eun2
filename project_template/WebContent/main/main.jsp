@@ -35,10 +35,10 @@
 						
 						<div class="our_clients">
 							<ul class="client_items clearfix">
-								<li class="col-sm-3 col-md-3 col-lg-3"><a href="services.html"  data-placement="bottom" data-toggle="tooltip" title="Client 1" ><img src="images/clients/1.png" alt="" /></a></li>
-								<li class="col-sm-3 col-md-3 col-lg-3"><a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 2" ><img src="images/clients/2.png" alt="" /></a></li>
-								<li class="col-sm-3 col-md-3 col-lg-3"><a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 3" ><img src="images/clients/3.png" alt="" /></a></li>
-								<li class="col-sm-3 col-md-3 col-lg-3"><a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 4" ><img src="images/clients/4.png" alt="" /></a></li>
+								<li class="col-sm-3 col-md-3 col-lg-3"><a href="../services.html"  data-placement="bottom" data-toggle="tooltip" title="Client 1" ><img src="../images/clients/1.png" alt="" /></a></li>
+								<li class="col-sm-3 col-md-3 col-lg-3"><a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 2" ><img src="../images/clients/2.png" alt="" /></a></li>
+								<li class="col-sm-3 col-md-3 col-lg-3"><a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 3" ><img src="../images/clients/3.png" alt="" /></a></li>
+								<li class="col-sm-3 col-md-3 col-lg-3"><a href="services.html" data-placement="bottom" data-toggle="tooltip" title="Client 4" ><img src="../images/clients/4.png" alt="" /></a></li>
 							</ul><!--/ .client_items-->
 						</div>
 					</div>
@@ -76,7 +76,11 @@
                                         </div>
                                         <div class="option">
                                             <a href="../images/portfolio/full/portfolio_1.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
+
+                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
+
                                             <a href="../portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
+
                                         </div>
                                         <figcaption class="item-description">
                                             <h5>Touch and Swipe</h5>
@@ -91,11 +95,16 @@
                                 <div class="recent-item">
                                     <figure>
                                         <div class="touching medium">
-                                            <img src="images/portfolio/portfolio_2.png" alt="" />
+                                            <img src="../images/portfolio/portfolio_2.png" alt="" />
                                         </div>
                                         <div class="option">
+
+                                            <a href="../images/portfolio/full/portfolio_2.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
+                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
+
                                             <a href="images/portfolio/full/portfolio_2.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
                                             <a href="../portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
+
                                         </div>
                                         <figcaption class="item-description">
                                             <h5>Touch and Swipe</h5>
@@ -114,7 +123,11 @@
                                         </div>
                                         <div class="option">
                                             <a href="../images/portfolio/full/portfolio_8.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
+
+                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
+
                                             <a href="../portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
+
                                         </div>
                                         <figcaption class="item-description">
                                             <h5>Touch and Swipe</h5>
@@ -133,7 +146,11 @@
                                         </div>
                                         <div class="option">
                                             <a href="../images/portfolio/full/portfolio_3.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
+
+                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
+
                                             <a href="../portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
+
                                         </div>
                                         <figcaption class="item-description">
                                             <h5>Touch and Swipe</h5>

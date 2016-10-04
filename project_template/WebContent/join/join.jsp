@@ -27,10 +27,12 @@
 
 </head>
 <body>
+
 <div >
        
    <div >
    <jsp:include page="../layout/header.jsp"></jsp:include>   
+
       <!-- 좌우측의 공간 확보 -->
                   
       <!-- 헤더 들어가는 부분 -->

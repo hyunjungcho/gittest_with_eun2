@@ -7,20 +7,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>뭐 하 지 ?</title>
 	<meta name="description" content="">
-<!-- CSS FILES -->
+	
+	<!-- CSS FILES -->
     <link rel="stylesheet" href="../../css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" type="text/css" href="../../css/style.css" media="screen" data-name="skins">
     <link rel="stylesheet" href="../../css/layout/wide.css" data-name="layout">
 
     <link rel="stylesheet" href="../../css/fractionslider.css"/>
     <link rel="stylesheet" href="../../css/style-fraction.css"/>
-
+	
     <link rel="stylesheet" type="text/css" href="../../css/switcher.css" media="screen" />
- <style>
- 	  body, div, img, ul, li
+ 	<style>
+ 	 	 body, div, img, ul, li
         {
-            margin: 0;
+       	     margin: 0;
             padding: 0;
         }
         body
@@ -67,7 +67,7 @@
         {
             transform: rotate(120deg);
             float: left;
-            margin-left: 10px;
+            margin-left: 5px;
             -ms-transform: rotate(120deg);
             -moz-transform: rotate(120deg);
             -webkit-transform: rotate(120deg);
@@ -117,9 +117,7 @@
             height: 32px;
             text-decoration: none;
             color: White;
-            font-size: 15
-            
-            px;
+            font-size: 15px;
             font-weight: bolder;
         }
  </style>
@@ -134,7 +132,7 @@
 				<div class="row sub_content">
 					<div class="col-lg-12 col-md-12 col-sm-12">
 						<div class="dividerHeading">
-							<h4><span>내 주변에서는?</span></h4>
+							<h4><span>모임</span></h4>
 
 						</div>
 						
@@ -147,7 +145,7 @@
                 <div class="boxS">
                     <div class="boxT" style="background-color:#27AB99;">
                         <div class="overlay">
-                            <a href="#">경기</a>
+                            <a href="#">서울</a>
                         </div>
                     </div>
                 </div>
@@ -156,7 +154,7 @@
                 <div class="boxS">
                     <div class="boxT" style="background-color:#27AB99;">
                         <div class="overlay">
-                            <a href="#">+</a>
+                            <a href="#">경기</a>
                         </div>
                     </div>
                 </div>
@@ -165,12 +163,29 @@
                 <div class="boxS">
                     <div class="boxT" style="background-color:#27AB99;">
                         <div class="overlay">
-                            <a href="#">+</a>
+                            <a href="#">충남</a>
                         </div>
                     </div>
                 </div>
             </div>
-
+             <div class="boxF">
+                <div class="boxS">
+                    <div class="boxT" style="background-color:#27AB99;">
+                        <div class="overlay">
+                            <a href="#">충북</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			 <div class="boxF">
+                <div class="boxS">
+                    <div class="boxT" style="background-color:#27AB99;">
+                        <div class="overlay">
+                            <a href="#">전남</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--둘째 줄(lineSecond)-->
         <div class="lineS">
@@ -178,7 +193,7 @@
                 <div class="boxS">
                     <div class="boxT" style="background-color:#27AB99;">
                         <div class="overlay">
-                            <a href="#"></a>
+                            <a href="#">전북</a>
                         </div>
                     </div>
                 </div>
@@ -187,7 +202,7 @@
                 <div class="boxS">
                     <div class="boxT" style="background-color:#27AB99;">
                         <div class="overlay">
-                            <a href="#">+</a>
+                            <a href="#">경남</a>
                         </div>
                     </div>
                 </div>
@@ -196,7 +211,7 @@
                 <div class="boxS">
                     <div class="boxT" style="background-color:#27AB99;">
                         <div class="overlay">
-                            <a href="#"></a>
+                            <a href="#">경북</a>
                         </div>
                     </div>
                 </div>
@@ -205,7 +220,7 @@
                 <div class="boxS">
                     <div class="boxT" style="background-color:#27AB99;">
                         <div class="overlay">
-                            <a href="#"></a>
+                            <a href="#">강원</a>
                         </div>
                     </div>
                 </div>
@@ -221,22 +236,22 @@
 	
    
 
-	<jsp:include page="../../layout/footer.jsp"></jsp:include>
-</body>
-<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/retina-1.1.0.min.js"></script>
-    <script type="text/javascript" src="js/jquery.cookie.js"></script> <!-- jQuery cookie -->
-    <script src="js/jquery.fractionslider.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
-    <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
-    <script type="text/javascript" src="js/jflickrfeed.js"></script>
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="js/swipe.js"></script>
-    <script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
 
-    <script src="js/main.js"></script>
+</body>
+ <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+     <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.cookie.js"></script> <!-- jQuery cookie -->
+    <script src="../js/jquery.fractionslider.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../js/jquery.smartmenus.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.smartmenus.bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="../js/jflickrfeed.js"></script>
+    <script type="text/javascript" src="../js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="../js/swipe.js"></script>
+    <script type="text/javascript" src="../js/jquery-scrolltofixed-min.js"></script>
+
+    <script src="../js/main.js"></script>
 </html>
