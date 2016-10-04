@@ -65,7 +65,7 @@ var InputImage =
 
 </head>
 <body>
-     <jsp:include page="../layout/header.jsp"></jsp:include>     
+    <jsp:include page="../layout/header.jsp"></jsp:include>     
    <div class="container">
       <!-- 좌우측의 공간 확보 -->
                   
