@@ -5,25 +5,23 @@
 <title>Insert title here</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet"
-   href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- CSS FILES -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="skins">
-    <link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+<!-- CSS FILES -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" data-name="skins">
+    <link rel="stylesheet" href="../css/layout/wide.css" data-name="layout">
 
-    <link rel="stylesheet" href="css/fractionslider.css"/>
-    <link rel="stylesheet" href="css/style-fraction.css"/>
+    <link rel="stylesheet" href="../css/fractionslider.css"/>
+    <link rel="stylesheet" href="../css/style-fraction.css"/>
 
-    <link rel="stylesheet" type="text/css" href="css/switcher.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/switcher.css" media="screen" />
 <script
    src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <style>
 </style>
 <body>
-   <jsp:include page="header.jsp"></jsp:include>
+   <jsp:include page="../layout/header.jsp"></jsp:include>
    <br>
    
    <form class="form-horizontal" role="form" method="post"
@@ -66,7 +64,7 @@
    <br>
    <br>
    <br>
-   <jsp:include page="footer.jsp"></jsp:include>
+   <jsp:include page="../layout/footer.jsp"></jsp:include>
 </body>
 <script></script>
 </html>
