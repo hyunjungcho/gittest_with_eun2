@@ -53,7 +53,7 @@
                    <!-- Logo / Mobile Menu -->
                    <div class="col-xs-12">
                        <div id="logo">
-                           <h1><a href="#"><img src="../images/logo.png" alt="" /></a></h1>
+                           <h1><a href="../main/main.jsp"><img src="../images/logo.png" alt="" /></a></h1>
                        </div>
                    </div>
                </div>
@@ -78,22 +78,22 @@
                    
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">추천!꿀팁</a>
+                            <li><a href="../list/list_best.jsp">추천!꿀팁</a>
                             </li>
 
-                            <li><a href="#">에디터게시글</a>
+                            <li><a href="../list/list_editor.jsp">에디터게시글</a>
                             </li>
 
                             <li><a href="../meeting/meeting_main.jsp">모임</a>
                             </li>
 
-                            <li><a href="#">먹거리</a>
+                            <li><a href="../list/list_food.jsp">먹거리</a>
                             </li>
 
-                            <li><a href="#">나들이</a>
+                            <li><a href="../list/list_picnic.jsp">나들이</a>
                             </li>
 
-                            <li><a href="#">취미</a>
+                            <li><a href="../list/list_hobby.jsp">취미</a>
                             </li>
                             <br>
                              <li>
@@ -120,7 +120,7 @@
                             <li><input type="text" placeholder="   무엇을" style="height:40px;margin:0 6px 5px 0;">
                             </li>
 
-                            <li><button style="margin:8px;color:#303436;"><i class="fa fa-search"></i></button>
+                            <li><button onclick="location='../list/list_search.jsp'" style="margin:8px;color:#303436;"><i class="fa fa-search"></i></button>
                             </li>
                       </ul>
 					</div>
