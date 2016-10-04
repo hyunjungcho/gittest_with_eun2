@@ -8,65 +8,29 @@
 <link rel="stylesheet"
    href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!-- CSS FILES -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="skins">
-    <link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" data-name="skins">
+    <link rel="stylesheet" href="../css/layout/wide.css" data-name="layout">
 
-    <link rel="stylesheet" href="css/fractionslider.css"/>
-    <link rel="stylesheet" href="css/style-fraction.css"/>
+    <link rel="stylesheet" href="../css/fractionslider.css"/>
+    <link rel="stylesheet" href="../css/style-fraction.css"/>
 
-    <link rel="stylesheet" type="text/css" href="css/switcher.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/switcher.css" media="screen" />
+
 <script
    src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="/js/plugins/canvas-to-blob.js"></script>
-<script src="/js/fileinput.js"></script>
+<script src="../js/plugins/canvas-to-blob.js"></script>
+<script src="../js/fileinput.js"></script>
 
 <script type="text/javascript">
-var InputImage = 
- (function loadImageFile() {
-    if (window.FileReader) {
-        var ImagePre; 
-        var ImgReader = new window.FileReader();
-        var fileType = /^(?:image\/bmp|image\/gif|image\/jpeg|image\/png|image\/x\-xwindowdump|image\/x\-portable\-bitmap)$/i; 
- 
-        ImgReader.onload = function (Event) {
-            if (!ImagePre) {
-                var newPreview = document.getElementById("imagePreview");
-                ImagePre = new Image();
-                ImagePre.style.width = "200px";
-                ImagePre.style.height = "140px";
-                newPreview.appendChild(ImagePre);
-            }
-            ImagePre.src = Event.target.result;
-            
-        };
- 
-        return function () {
-         
-            var img = document.getElementById("image").files;
-           
-            if (!fileType.test(img[0].type)) { 
-             alert("이미지 파일을 업로드 하세요"); 
-             return; 
-            }
-            
-            ImgReader.readAsDataURL(img[0]);
-        }
- 
-    }
-   
-            document.getElementById("imagePreview").src = document.getElementById("image").value;
- 
-      
-})();
- 
- 
 </script>
 
 </head>
 <body>
-     <jsp:include page="../layout/header.jsp"></jsp:include>     
-   <div class="container">
+<div >
+       
+   <div >
+   <jsp:include page="../layout/header.jsp"></jsp:include>   
       <!-- 좌우측의 공간 확보 -->
                   
       <!-- 헤더 들어가는 부분 -->
@@ -244,12 +208,53 @@ var InputImage =
          <hr>
    </form>
    
-
+  
    <jsp:include page="../layout/footer.jsp"></jsp:include>
+   </div>
 </body>
-                                  
-   <script>
+<script>
                
+      //이미지넣기
+      var InputImage = 
+ (function loadImageFile() {
+    if (window.FileReader) {
+        var ImagePre; 
+        var ImgReader = new window.FileReader();
+        var fileType = /^(?:image\/bmp|image\/gif|image\/jpeg|image\/png|image\/x\-xwindowdump|image\/x\-portable\-bitmap)$/i; 
+ 
+        ImgReader.onload = function (Event) {
+            if (!ImagePre) {
+                var newPreview = document.getElementById("imagePreview");
+                ImagePre = new Image();
+                ImagePre.style.width = "200px";
+                ImagePre.style.height = "140px";
+                newPreview.appendChild(ImagePre);
+            }
+            ImagePre.src = Event.target.result;
+            
+        };
+ 
+        return function () {
+         
+            var img = document.getElementById("image").files;
+           
+            if (!fileType.test(img[0].type)) { 
+             alert("이미지 파일을 업로드 하세요"); 
+             return; 
+            }
+            
+            ImgReader.readAsDataURL(img[0]);
+        }
+ 
+    }
+   
+            document.getElementById("imagePreview").src = document.getElementById("image").value;
+ 
+      
+})();
+ 
+ 
+      
             $(function() {
          //모달을 전역변수로 선언
          var modalContents = $(".modal-contents");
@@ -368,13 +373,6 @@ var InputImage =
                divPhoneNumber.removeClass("has-error");
                divPhoneNumber.addClass("has-success");
             }
-         });
-         //---------이미지넣기
-         $("#input-dim-2").fileinput({
-            uploadUrl : "/file-upload-batch/2",
-            allowedFileExtensions : [ "jpg", "png", "gif" ],
-            maxImageWidth : 250,
-            maxImageHeight : 250
          });
 
          //------- validation 검사
@@ -522,7 +520,7 @@ var InputImage =
                   if ($('#phoneNumber').val() == "") {
                      modalContents.text("휴대폰 번호를 입력하여 주시기 바랍니다.");
                      modal.modal('show');
-                     </div>
+                    
                      divPhoneNumber.removeClass("has-success");
                      divPhoneNumber.addClass("has-error");
                      $('#phoneNumber').focus();
