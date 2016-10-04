@@ -29,7 +29,7 @@
    <form class="form-horizontal" role="form" method="post"
       action="javascript:alert( '로그인 성공' );">
       <div class="page-header">
-         <h2 class="text-center">로그인~~~~~~~~~~~~</h2>
+         <h2 class="text-center">로그인</h2>
       </div>
       <div class="form-group">
          <label class="col-sm-3 control-label">ID</label>

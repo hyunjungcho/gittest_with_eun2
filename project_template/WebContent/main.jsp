@@ -64,162 +64,80 @@
 						</div>
 					</div>
 					
-					<div class="jcarousel recent-work-jc">
-                        <ul class="jcarousel-list">
-                            <!-- Recent Work Item -->
-                            <li class="col-sm-3 col-md-3 col-lg-3">
-                                <div class="recent-item">
-                                    <figure>
-                                        <div class="touching medium">
-                                            <img src="images/portfolio/portfolio_1.png" alt="" />
-                                        </div>
-                                        <div class="option">
-                                            <a href="images/portfolio/full/portfolio_1.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
-                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
-                                        </div>
-                                        <figcaption class="item-description">
-                                            <h5>Touch and Swipe</h5>
-                                            <span>Technology</span>
-                                        </figcaption>
-                                    </figure>
+					<div class="col-lg-3 col-md-3 col-sm-6">
+						<div class="eve-team">
+                            <div class="pic">
+                                <img src="images/teams/1.png" alt="profile img">
+                                <div class="social_media_team">
+                                    <ul class="team_social">
+                                        <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="gmail" href="#." data-placement="top" data-toggle="tooltip" title="Google"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
                                 </div>
-                            </li>
-
-                            <!-- Recent Work Item -->
-                            <li class="col-sm-3 col-md-3 col-lg-3">
-                                <div class="recent-item">
-                                    <figure>
-                                        <div class="touching medium">
-                                            <img src="images/portfolio/portfolio_2.png" alt="" />
-                                        </div>
-                                        <div class="option">
-                                            <a href="images/portfolio/full/portfolio_2.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
-                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
-                                        </div>
-                                        <figcaption class="item-description">
-                                            <h5>Touch and Swipe</h5>
-                                            <span>Technology</span>
-                                        </figcaption>
-                                    </figure>
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="names">kristiana<small>Web Developer</small></h3>
+                                <p class="description">Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commo, magnase quis lacinia ornare, quam ante aliqua nisi, eu iaculis leo purus venenatis scelerisque. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="eve-team">
+                            <div class="pic">
+                                <img src="images/teams/2.png" alt="profile img">
+                                <div class="social_media_team">
+                                    <ul class="team_social">
+                                        <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="gmail" href="#." data-placement="top" data-toggle="tooltip" title="Google"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
                                 </div>
-                            </li>
-
-                            <!-- Recent Work Item -->
-                            <li class="col-sm-3 col-md-3 col-lg-3">
-                                <div class="recent-item">
-                                    <figure>
-                                        <div class="touching medium">
-                                            <img src="images/portfolio/portfolio_3.png" alt="" />
-                                        </div>
-                                        <div class="option">
-                                            <a href="images/portfolio/full/portfolio_8.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
-                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
-                                        </div>
-                                        <figcaption class="item-description">
-                                            <h5>Touch and Swipe</h5>
-                                            <span>Technology</span>
-                                        </figcaption>
-                                    </figure>
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="names">williamson<small>Web Developer</small></h3>
+                                <p class="description">Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commo, magnase quis lacinia ornare, quam ante aliqua nisi, eu iaculis leo purus venenatis scelerisque. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+						<div class="eve-team">
+                            <div class="pic">
+                                <img src="images/teams/1.png" alt="profile img">
+                                <div class="social_media_team">
+                                    <ul class="team_social">
+                                        <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="gmail" href="#." data-placement="top" data-toggle="tooltip" title="Google"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
                                 </div>
-                            </li>
-
-                            <!-- Recent Work Item -->
-                            <li class="col-sm-3 col-md-3 col-lg-3">
-                                <div class="recent-item">
-                                    <figure>
-                                        <div class="touching medium">
-                                            <img src="images/portfolio/portfolio_4.png" alt="" />
-                                        </div>
-                                        <div class="option">
-                                            <a href="images/portfolio/full/portfolio_3.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
-                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
-                                        </div>
-                                        <figcaption class="item-description">
-                                            <h5>Touch and Swipe</h5>
-                                            <span>Technology</span>
-                                        </figcaption>
-                                    </figure>
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="names">kristiana<small>Web Developer</small></h3>
+                                <p class="description">Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commo, magnase quis lacinia ornare, quam ante aliqua nisi, eu iaculis leo purus venenatis scelerisque. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="eve-team">
+                            <div class="pic">
+                                <img src="images/teams/2.png" alt="profile img">
+                                <div class="social_media_team">
+                                    <ul class="team_social">
+                                        <li><a class="fb" href="#." data-placement="top" data-toggle="tooltip" title="Facbook"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="twtr" href="#." data-placement="top" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="gmail" href="#." data-placement="top" data-toggle="tooltip" title="Google"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
                                 </div>
-                            </li>
-
-                            <!-- Recent Work Item -->
-                            <li class="col-sm-3 col-md-3 col-lg-3">
-                                <div class="recent-item">
-                                    <figure>
-                                        <div class="touching medium">
-                                            <img src="images/portfolio/portfolio_5.png" alt="" />
-                                        </div>
-                                        <div class="option">
-                                            <a href="images/portfolio/full/portfolio_4.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
-                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
-                                        </div>
-                                        <figcaption class="item-description">
-                                            <h5>Touch and Swipe</h5>
-                                            <span>Technology</span>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </li>
-
-                            <!-- Recent Work Item -->
-                            <li class="col-sm-3 col-md-3 col-lg-3">
-                                <div class="recent-item">
-                                    <figure>
-                                        <div class="touching medium">
-                                            <img src="images/portfolio/portfolio_5.png" alt="" />
-                                        </div>
-                                        <div class="option">
-                                            <a href="images/portfolio/full/portfolio_1.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
-                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
-                                        </div>
-                                        <figcaption class="item-description">
-                                            <h5>Touch and Swipe</h5>
-                                            <span>Technology</span>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </li>
-
-                            <!-- Recent Work Item -->
-                            <li class="col-sm-3 col-md-3 col-lg-3">
-                                <div class="recent-item">
-                                    <figure>
-                                        <div class="touching medium">
-                                            <img src="images/portfolio/portfolio_2.png" alt="" />
-                                        </div>
-                                        <div class="option">
-                                            <a href="images/portfolio/full/portfolio_7.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
-                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
-                                        </div>
-                                        <figcaption class="item-description">
-                                            <h5>Touch and Swipe</h5>
-                                            <span>Technology</span>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </li>
-
-                            <!-- Recent Work Item -->
-                            <li class="col-sm-3 col-md-3 col-lg-3">
-                                <div class="recent-item">
-                                    <figure>
-                                        <div class="touching medium">
-                                            <img src="images/portfolio/portfolio_3.png" alt="" />
-                                        </div>
-                                        <div class="option">
-                                            <a href="images/portfolio/full/portfolio_8.png" class="hover-zoom mfp-image" ><i class="fa fa-search"></i></a>
-                                            <a href="portfolio_single.html" class="hover-link"><i class="fa fa-link"></i></a>
-                                        </div>
-                                        <figcaption class="item-description">
-                                            <h5>Touch and Swipe</h5>
-                                            <span>Technology</span>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </li>
-                        </ul>
-					</div>
+                            </div>
+                            <div class="team_prof">
+                                <h3 class="names">williamson<small>Web Developer</small></h3>
+                                <p class="description">Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commo, magnase quis lacinia ornare, quam ante aliqua nisi, eu iaculis leo purus venenatis scelerisque. </p>
+                            </div>
+                        </div>
+                    </div>
 				</div>
+				
 			</div>
 		</section>
 		<!--Start recent work-->
