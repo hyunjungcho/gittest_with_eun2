@@ -123,7 +123,7 @@ var InputImage =
                 
          <div class="page-header">
             <h1 class="text-center">
-               회원가입
+               회원가입!!!!!!!!!!!!!!!!!!!
             </h1>
          </div>
 
