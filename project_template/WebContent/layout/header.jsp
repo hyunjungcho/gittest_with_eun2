@@ -10,15 +10,15 @@
    <meta name="description" content="">
    
    <!-- CSS FILES -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="skins">
-    <link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" data-name="skins">
+    <link rel="stylesheet" href="../css/layout/wide.css" data-name="layout">
 
-    <link rel="stylesheet" href="css/fractionslider.css"/>
-    <link rel="stylesheet" href="css/style-fraction.css"/>
+    <link rel="stylesheet" href="../css/fractionslider.css"/>
+    <link rel="stylesheet" href="../css/style-fraction.css"/>
 
-    <link rel="stylesheet" type="text/css" href="css/switcher.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/switcher.css" media="screen" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -37,8 +37,8 @@
                     </div>
                     <div class="col-sm-5 top-info">
                        <ul>
-                            <li><a href="login.jsp" class="my-tweet">로그인</a>&#10072;</li>
-                            <li><a href="join.jsp" class="my-facebook"> 회원가입</a></li>
+                            <li><a href="../login/login.jsp" class="my-tweet">로그인</a>&#10072;</li>
+                            <li><a href="../join/join.jsp" class="my-facebook"> 회원가입</a></li>
                         
                         </ul>
                     </div>
@@ -53,7 +53,7 @@
                    <!-- Logo / Mobile Menu -->
                    <div class="col-xs-12">
                        <div id="logo">
-                           <h1><a href="#"><img src="images/logo.png" alt="" /></a></h1>
+                           <h1><a href="#"><img src="../images/logo.png" alt="" /></a></h1>
                        </div>
                    </div>
                </div>

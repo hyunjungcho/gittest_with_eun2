@@ -8,15 +8,16 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   
-  <!-- CSS FILES -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="skins">
-    <link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+   <!-- CSS FILES -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" data-name="skins">
+    <link rel="stylesheet" href="../css/layout/wide.css" data-name="layout">
 
-    <link rel="stylesheet" href="css/fractionslider.css"/>
-    <link rel="stylesheet" href="css/style-fraction.css"/>
+    <link rel="stylesheet" href="../css/fractionslider.css"/>
+    <link rel="stylesheet" href="../css/style-fraction.css"/>
 
-    <link rel="stylesheet" type="text/css" href="css/switcher.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/switcher.css" media="screen" />
 </head>
    
 <body>
@@ -79,67 +80,67 @@
                         <div class="flickr">
                             <ul id="flickrFeed" class="flickr-feed">
                                <li>
-                                  <a class="mfp-gallery" title="9" href="images/footerimage/menu9.png">
+                                  <a class="mfp-gallery" title="9" href="../images/footerimage/menu9.png">
                                      <i class="fa fa-search"></i>
                                      <div class="hover"></div>
                                   </a>
-                                  <img src="images/footerimage/menu9.png" alt="9">
+                                  <img src="../images/footerimage/menu9.png" alt="9">
                                </li>
                                                               <li>
-                                  <a class="mfp-gallery" title="8" href="images/footerimage/menu8.png">
+                                  <a class="mfp-gallery" title="8" href="../images/footerimage/menu8.png">
                                      <i class="fa fa-search"></i>
                                      <div class="hover"></div>
                                   </a>
-                                  <img src="images/footerimage/menu8.png" alt="8">
+                                  <img src="../images/footerimage/menu8.png" alt="8">
                                </li>
                                                               <li>
-                                  <a class="mfp-gallery" title="7" href="images/footerimage/menu7.png">
+                                  <a class="mfp-gallery" title="7" href="../images/footerimage/menu7.png">
                                      <i class="fa fa-search"></i>
                                      <div class="hover"></div>
                                   </a>
-                                  <img src="images/footerimage/menu7.png" alt="7">
+                                  <img src="../images/footerimage/menu7.png" alt="7">
                                </li>
                                                               <li>
-                                  <a class="mfp-gallery" title="6" href="images/footerimage/menu6.png">
+                                  <a class="mfp-gallery" title="6" href="../images/footerimage/menu6.png">
                                      <i class="fa fa-search"></i>
                                      <div class="hover"></div>
                                   </a>
-                                  <img src="images/footerimage/menu6.png" alt="6">
+                                  <img src="../images/footerimage/menu6.png" alt="6">
                                </li>
                                                               <li>
-                                  <a class="mfp-gallery" title="5" href="images/footerimage/menu5.png">
+                                  <a class="mfp-gallery" title="5" href="../images/footerimage/menu5.png">
                                      <i class="fa fa-search"></i>
                                      <div class="hover"></div>
                                   </a>
-                                  <img src="images/footerimage/menu5.png" alt="5">
+                                  <img src="../images/footerimage/menu5.png" alt="5">
                                </li>
                                                               <li>
-                                  <a class="mfp-gallery" title="4" href="images/footerimage/menu4.png">
+                                  <a class="mfp-gallery" title="4" href="../images/footerimage/menu4.png">
                                      <i class="fa fa-search"></i>
                                      <div class="hover"></div>
                                   </a>
-                                  <img src="images/footerimage/menu4.png" alt="4">
+                                  <img src="../images/footerimage/menu4.png" alt="4">
                                </li>
                                                               <li>
-                                  <a class="mfp-gallery" title="3" href="images/footerimage/menu3.png">
+                                  <a class="mfp-gallery" title="3" href="../images/footerimage/menu3.png">
                                      <i class="fa fa-search"></i>
                                      <div class="hover"></div>
                                   </a>
-                                  <img src="images/footerimage/menu3.png" alt="3">
+                                  <img src="../images/footerimage/menu3.png" alt="3">
                                </li>
                                                               <li>
-                                  <a class="mfp-gallery" title="2" href="images/footerimage/menu2.png">
+                                  <a class="mfp-gallery" title="2" href="../images/footerimage/menu2.png">
                                      <i class="fa fa-search"></i>
                                      <div class="hover"></div>
                                   </a>
-                                  <img src="images/footerimage/menu2.png" alt="2">
+                                  <img src="../images/footerimage/menu2.png" alt="2">
                                </li>
                                <li>
-                                  <a class="mfp-gallery" title="1" href="images/footerimage/menu1.png">
+                                  <a class="mfp-gallery" title="1" href="../images/footerimage/menu1.png">
                                      <i class="fa fa-search"></i>
                                      <div class="hover"></div>
                                   </a>
-                                  <img src="images/footerimage/menu1.png" alt="1">
+                                  <img src="../images/footerimage/menu1.png" alt="1">
                                </li>
                                
                             

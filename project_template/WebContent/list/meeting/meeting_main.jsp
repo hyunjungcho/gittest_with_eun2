@@ -9,18 +9,18 @@
 	<meta name="description" content="">
 	
 	<!-- CSS FILES -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="skins">
-    <link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css" media="screen" data-name="skins">
+    <link rel="stylesheet" href="../../css/layout/wide.css" data-name="layout">
 
-    <link rel="stylesheet" href="css/fractionslider.css"/>
-    <link rel="stylesheet" href="css/style-fraction.css"/>
+    <link rel="stylesheet" href="../../css/fractionslider.css"/>
+    <link rel="stylesheet" href="../../css/style-fraction.css"/>
 	
-    <link rel="stylesheet" type="text/css" href="css/switcher.css" media="screen" />
- <style>
- 	  body, div, img, ul, li
+    <link rel="stylesheet" type="text/css" href="../../css/switcher.css" media="screen" />
+ 	<style>
+ 	 	 body, div, img, ul, li
         {
-            margin: 0;
+       	     margin: 0;
             padding: 0;
         }
         body
@@ -124,7 +124,7 @@
 </head>
 <body>
 
-	<jsp:include page="header.jsp"></jsp:include>
+	<jsp:include page="../../layout/header.jsp"></jsp:include>
 	<br>
 	<br>
 	<section class="clients">
